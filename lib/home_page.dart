@@ -9,12 +9,12 @@ class HomePage extends StatefulWidget {
 }
 
 class _HomePageState extends State<HomePage> {
+  var altura = 0.0;
+  var peso = 0.0;
+  var result = '';
+
   @override
   Widget build(BuildContext context) {
-    var altura = 0.0;
-    var peso = 0.0;
-    var result = '';
-
     return Scaffold(
       appBar: AppBar(
         title: const Text('Calculadora IMC'),
